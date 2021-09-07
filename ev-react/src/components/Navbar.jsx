@@ -5,9 +5,9 @@ import { AppBar, Toolbar, Typography } from "@material-ui/core";
 // import TwitterIcon from '@material-ui/icons/Twitter';
 // import EmailIcon from '@material-ui/icons/Email';
 
-export default function Navbar() {
+export default function Navbar(props) {
   return (
-    <AppBar position="relative">
+    <AppBar position="relative" color="primary">
       <Toolbar>
         <Typography variant="h5">Evelyns Photography</Typography>
         {/* <FacebookIcon className={props.classes.socials} />
