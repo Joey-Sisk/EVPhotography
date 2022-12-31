@@ -1,0 +1,23 @@
+{
+  "name": "EVPhotography",
+  "version": "1.0.0",
+  "description": "Profesional website for Evelyn's photography business",
+  "main": "server.js",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.28.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joey-Sisk/EVPhotography.git"
+  },
+  "author": "Joey Sisk",
+  "license": "ISC"
+}
